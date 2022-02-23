@@ -24,7 +24,7 @@ Esta podra conectarse a cualquier red mediante dhcp y se podra acceder a el. Ade
 - Filezilla
 
 ** Planificación **
-El proyecto se realizaría en el periodo de práctica, y serían aproxidamente 1 mes y medio de desarrollo, tiniendo en cuenta el montaje y ensamblaje, y luego la configuracion de software.
+El proyecto se realizaría en el periodo de práctica, y serían aproxidamente 1 mes y medio de desarrollo, tiniendo en cuenta el montaje y ensamblaje, y luego la configuracion de software. 
 
 
 
