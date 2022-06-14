@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Samba</title>
+</head>
+<script>
+    window.onload = function () {
+        var tusmuertos = "<ol><li>Abre el navegador de windows</li><li>En la barra de direcciones escribe \\\\" + window.location.hostname + "</li><li>Introduce el usuario y la contraseña(usuario: usuario, contraseña: usuario)</li><li>Ya podrás usar samba para copiar y mover archivos</li></ol>";
+        document.getElementById("lista").innerHTML = tusmuertos;
+    }
+</script>
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    ol {
+        text-align: center;
+    }
+
+    li {
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    img {
+        display: block;
+        margin: 0px auto;
+    }
+</style>
+
+<body>
+    <h1>Guía para el uso de samba</h1>
+    <div id="lista"></div>
+
+    <img src="luffy.gif" alt="luffy y yasta">
+
+</body>
+
+</html>

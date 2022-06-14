@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidor FTP</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    ol {
+        text-align: center;
+    }
+
+    li {
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    img {
+        display: block;
+        margin: 0px auto;
+    }
+</style>
+<script>
+    window.onload = function () {
+        var hostname = window.location.hostname;
+        var replace = "<li>Usaras esta IP: " + hostname + " y usaras las siguientes credenciales: (usuario: usuario, contraseña: usuario)</li>";
+        document.getElementById("reemplazar").innerHTML = replace;
+    }
+</script>
+
+<body>
+    <h1>Guía para el uso de FTP</h1>
+    <ol>
+        <li>Para ello necesitaras un cliente FTP (Ej: Filezilla)</li>
+        <li>Iniciaras una nueva conexión con el servidor</li>
+        <div id="reemplazar"></div>
+        <li>Ya podrás usar FTP para copiar y mover archivos</li>
+    </ol>
+
+    <img src="nice-funny.gif" alt="ha ha nice">
+
+
+</body>
+
+</html>

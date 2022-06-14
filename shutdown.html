@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajustes</title>
+    <style>
+        .boton {
+            width: 15%;
+            height: 15px;
+            padding: 10px;
+            float: left 50%;
+            margin-top: 100px;
+            margin-left: 40%;
+            text-align: center;
+            clear: both;
+            background: cornsilk;
+            color: #000;
+            border: 2px black solid;
+        }
+    </style>
+</head>
+<script>
+    function apagar() {
+        var mensaje;
+        var opcion = confirm("Dale a aceptar para apagar el equipo");
+        if (opcion == true) {
+            window.open('shutdown.php');
+
+        }
+    }
+
+    function reiniciar() {
+        var mensaje;
+        var opcion = confirm("Dale a aceptar para reiniciar el equipo");
+        if (opcion == true) {
+            window.open('reboot.php');
+        }
+    }
+
+
+
+
+</script>
+
+<body>
+
+    <div onclick="apagar();" class="boton">Apagar</div>
+    <div onclick="reiniciar();" class="boton">Reiniciar</div>
+
+</body>
+
+</html>

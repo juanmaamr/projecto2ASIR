@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>amule</title>
+</head>
+
+<body>
+	<div id="formulario"></div>
+
+</body>
+
+<script>
+	var hostname = window.location.hostname;
+	var url = "http://" + hostname + ":8090";
+	var replace = "<form id='form1' action=" + url + " method='POST'><input type='hidden' name='pass' value='juanmapiamule'></form>";
+
+	document.getElementById("formulario").innerHTML = replace;
+
+	var form = document.getElementById("form1");
+	form.submit();
+
+
+
+</script>
+
+</html>
